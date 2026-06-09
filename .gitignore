@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Databases & Backups
+database/phishing.db
+*.bak
+*.db-journal
+
+# ML Pickled Models
+models/phishing_model.pkl
+
+# Generated Security PDF Reports
+reports/*.pdf
+
+# Virtual Environments
+venv/
+.env
+.venv
+ENV/
+dist/
+build/
+*.egg-info/
