@@ -1,0 +1,62 @@
+=============================================
+  PHISHING DETECTION SYSTEM — HOW TO RUN
+=============================================
+
+REQUIREMENTS
+------------
+- Python 3.9+  →  https://www.python.org/downloads/
+  (Install karte waqt "Add Python to PATH" tick karo)
+- Internet connection (URL check ke liye)
+
+
+STEPS
+-----
+
+1. Project folder mein jao
+   cd Real-Time-Phishing-Detection-System-2
+
+2. Virtual environment banao
+   python -m venv venv
+   venv\Scripts\activate
+
+3. Dependencies install karo
+   pip install -r requirements.txt
+
+4. Project run karo
+   python app.py
+
+5. Browser mein open karo
+   http://127.0.0.1:5000
+
+6. URL daalo aur check karo
+   → Phishing hai ya Legitimate — result turant aayega
+
+7. Band karna ho to
+   CTRL + C
+
+
+COMMON ERRORS
+-------------
+
+"python not recognized"
+  → Python reinstall karo, PATH tick karna mat bhoolo
+
+"No module named sklearn"
+  → pip install scikit-learn
+
+"No module named flask"
+  → pip install flask
+
+"No module named bs4"
+  → pip install beautifulsoup4
+
+"model.pkl not found"
+  → Pehle model train karo:
+    python train_model.py
+
+Port 5000 busy hai
+  → app.py mein change karo: app.run(port=5001)
+
+=============================================
+  Author: Sahyog | GitHub: @Sahyog18
+=============================================
