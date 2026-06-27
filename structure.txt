@@ -1,0 +1,48 @@
+=============================================
+  PHISHING DETECTION — FILE STRUCTURE
+=============================================
+
+Real-Time-Phishing-Detection-System-2/
+│
+├── README.md                  ← Project overview & IEEE format doc
+├── NOTES.txt                  ← How to run (step-by-step)
+├── structure.txt              ← Ye file (folder structure)
+├── requirements.txt           ← Saari dependencies ki list
+│
+├── app.py                     ← MAIN FILE — yahi run karo (Flask server)
+├── train_model.py             ← Model training script (pehli baar chalao)
+├── feature_extraction.py      ← URL se 30+ features nikalta hai
+├── model.pkl                  ← Trained Random Forest model (delete mat karna!)
+│
+├── dataset/
+│   └── phishing.csv           ← UCI Phishing dataset (training data)
+│
+└── templates/
+    └── index.html             ← Web UI (jahan URL enter karte ho)
+
+=============================================
+IMPORTANT FILES (ye 4 sabse zaroori)
+=============================================
+
+  app.py               →  Yahi se server start hota hai, isko run karo
+  model.pkl            →  Model ka brain, bina iske detection nahi hogi
+  feature_extraction.py →  URL analyze karta hai, mat chhedo
+  train_model.py       →  Agar model.pkl nahi hai to ye pehle chalao
+
+=============================================
+HOW IT WORKS (simple flow)
+=============================================
+
+  User URL enter karta hai (index.html)
+          ↓
+  Flask app.py request leta hai
+          ↓
+  feature_extraction.py → 30+ features nikalti hai URL se
+          ↓
+  model.pkl (Random Forest) → prediction karta hai
+          ↓
+  Result → Phishing ❌  ya  Legitimate ✅
+
+=============================================
+  Author: Sahyog | GitHub: @Sahyog18
+=============================================
