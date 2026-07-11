@@ -9,6 +9,9 @@
 ![RandomForest](https://img.shields.io/badge/Random%20Forest-ML%20Model-green?style=flat-square)
 ![Accuracy](https://img.shields.io/badge/Accuracy-~95%25-brightgreen?style=flat-square)
 ![Dataset](https://img.shields.io/badge/Dataset-UCI%20Phishing-orange?style=flat-square)
+![Deployed](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=flat-square&logo=vercel)
+
+**🔗 Live Demo: [real-time-phishing-detection-system-2-j7f5w82fs.vercel.app](https://real-time-phishing-detection-system-2-j7f5w82fs.vercel.app/)**
 
 </div>
 
@@ -84,6 +87,7 @@ Result displayed on Flask Web UI
 | Web Framework | Flask |
 | Feature Extraction | BeautifulSoup, Requests, Whois |
 | Dataset | UCI Phishing Websites |
+| Deployment | Vercel |
 
 ### Project Structure
 
@@ -105,6 +109,12 @@ Real-Time-Phishing-Detection-System/
 ---
 
 ## 5. Setup & Run
+
+### 🌐 Try it live
+No setup needed — check out the deployed app here:
+**[https://real-time-phishing-detection-system-2-j7f5w82fs.vercel.app/](https://real-time-phishing-detection-system-2-j7f5w82fs.vercel.app/)**
+
+### 💻 Run locally
 
 ```bash
 # 1. Clone the repo
